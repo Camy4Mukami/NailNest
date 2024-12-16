@@ -1,0 +1,124 @@
+/* reset styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* Base styles */
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', 'Merriweather', Arial, Helvetica, sans-serif;
+}
+
+/* Styles */
+
+.header{
+
+}
+
+.top-bar{
+
+    background-color:#ffd8cb;
+    
+}
+
+.top-bar__content{
+    height: 48px;
+    font-size: 16px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+
+
+}
+
+.phone-number{
+
+    
+}
+
+.opening-hours{
+
+}
+
+.social-media__handles{
+    display: flex;
+    
+    
+   
+    
+
+}
+
+.icon{
+    color: #9b9b9b;
+}
+
+.bottom-bar{
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+.bottom-bar__content{
+
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.logo__img{
+    height: 105px;
+
+}
+
+.nav{
+
+}
+
+.nav__list{
+    
+
+}
+
+.nav__item{
+    
+
+}
+
+.nav__link{
+    font-size: 16px;
+    font-weight: 500;
+    transition: all, 0.15s;
+}
+
+.nav__link:hover, 
+.nav__link:focus{
+    text-decoration: underline;
+}
+
+.btn{
+
+}
