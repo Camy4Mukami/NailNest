@@ -12,8 +12,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap"
       rel="stylesheet"
     />
 
@@ -31,55 +33,391 @@
 
     <title>NailNest</title>
   </head>
+
   <body>
-    <header class="header">
-      <div class="top-bar">
-        <div class="top-bar__content">
-          <div class="phone-number">
-            <strong>Free Call:</strong>+254-712-345-678
-          </div>
-
-          <div class="opening-hours">
-            <strong>Opening Hours:</strong> Mn-Fr: 9am-8pm
-          </div>
-          <div class="social-media__handles">
-            <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
-            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
-            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
-            <div class="icon"><i class="fa-brands fa-pinterest-p"></i></div>
-          </div>
-        </div>
-      </div>
-      <div class="bottom-bar">
-        <div class="bottom-bar__content">
-          <a href="#" class="logo">
-            <img src="images/logo.png" alt="logo" class="logo__img" />
-          </a>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#" class="nav__link">Home</a>
-              </li>
-
-              <li class="nav__item">
-                <a href="#" class="nav__link">About</a>
-              </li>
-
-              <li class="nav__item">
-                <a href="#" class="nav__link">services</a>
-              </li>
-
-              <li class="nav__item">
-                <a href="#" class="nav__link">Contacts</a>
-              </li>
-
-              <li class="nav__item">
-                <a href="#" class="btn">Sign Up</a>
-              </li>
-            </ul>
-          </nav>
+    <!-- Header Section -->
+    <header class="top-bar">
+      <div class="top-info">
+        <p>
+          <strong>Free Call: </strong
+          ><span class="phone__num">(073)123-12-12</span>
+        </p>
+        <p><strong>Opening Hours:</strong> Mon-Fri: 10 am-8 pm</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-vimeo-v"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
         </div>
       </div>
     </header>
+
+    <!-- Navigation Section -->
+    <nav class="navbar">
+      <div class="logo">NailNest</div>
+
+      <!-- Hamburger Icon -->
+      <div class="nav-toggle" id="nav-toggle">
+        &#9776;
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero__section">
+      <div class="hero__content">
+        <h1>Pampering at Your Doorstep</h1>
+        <p>
+          Looking for premium nail care in the comfort of your home? We’ve got
+          you covered.
+        </p>
+
+        <a href="#" class="hero__btn">Book Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/Like_Wild_+_Like_Wonder-removebg-preview.png" alt="" />
+      </div>
+    </section>
+
+    <!-- why-choose-us section -->
+
+    <section class="why-choose-us">
+      <div class="why__container">
+        <!-- Left Image -->
+        <div class="why-us-image-container">
+          <div class="dotted-image"></div>
+          <div class="image">
+            <img
+              src="images/Chill Tips Press-ons.jpeg"
+              alt="Client with beautiful nails"
+            />
+          </div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="why__content">
+          <h2>Why Our Clients Choose Us</h2>
+          <p>
+            Curabitur at felis non libero suscipit fermentum. Morbi vel neque
+            elit.
+          </p>
+          <p>
+            Our team strives to deliver the best nail designs, experience, and
+            top-notch customer service. We craft beautiful nails that reflect
+            your individuality and style.
+          </p>
+          <a href="#" class="why__btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+
+    <section class="services">
+      <div class="services__intro">
+        <h1>Our Services</h1>
+        <p>
+          Discover our range of premium beauty services designed to pamper and
+          rejuvenate you.
+        </p>
+      </div>
+
+      <div class="services__container">
+        <!-- Left Grid -->
+        <div class="services__grid">
+          <div class="service-card">
+            <img
+              src="images/manicure-icon-removebg-preview.png"
+              alt="Manicure Icon"
+              class="service-icon"
+            />
+            <h3>Manicure</h3>
+            <p>
+              Our manicure treatments stimulate nail growth and soften dry, dull
+              skin.
+            </p>
+          </div>
+          <div class="service-card">
+            <img
+              src="images/pedi-icon-removebg-preview.png"
+              alt="Pedicure Icon"
+              class="service-icon"
+            />
+            <h3>Pedicure</h3>
+            <p>
+              Pedicure services provide full restoration for your nails with
+              extra polishing.
+            </p>
+          </div>
+          <div class="service-card">
+            <img
+              src="images/nail-art-removebg-preview.png"
+              alt="Nail Art Icon"
+              class="service-icon"
+            />
+            <h3>Nail Art</h3>
+            <p>
+              Let our nail artists create a stunning and sustainable nail design
+              for you.
+            </p>
+          </div>
+          <div class="service-card">
+            <img
+              src="images/manicure-icon-removebg-preview.png"
+              alt="Paraffin Wax Icon"
+              class="service-icon"
+            />
+            <h3>Paraffin Wax</h3>
+            <p>
+              This is a treatment for hands and feet that complements your
+              manicure and pedicure.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="services__image">
+          <img
+            src="images/Beauté des pieds - Colorii.jpeg"
+            alt="Nail Service"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="experts">
+      <div class="experts__intro">
+        <h1>Meet Our Experts</h1>
+        <p>
+          We employ the best manicurists and pedicurists in the industry. We
+          also educate our own award-winning specialists through constant
+          training. Here are the most prominent talents of our team who make
+          your dreams come true.
+        </p>
+      </div>
+
+      <div class="experts__grid">
+        <!-- Expert 1 -->
+        <div class="expert-card">
+          <img
+            src="images/expert1.jpeg"
+            alt="Ann Nelson"
+            class="expert-photo"
+          />
+          <h3>Ann Nelson</h3>
+          <p>Founder, Senior Nail Technician</p>
+          <a href="mailto:info@demolink.org">info@demolink.org</a>
+        </div>
+
+        <!-- Expert 2 -->
+        <div class="expert-card">
+          <img
+            src="images/expert1.jpeg"
+            alt="Mary Lucas"
+            class="expert-photo"
+          />
+          <h3>Mary Lucas</h3>
+          <p>Manicurist</p>
+          <a href="mailto:info@demolink.org">info@demolink.org</a>
+        </div>
+
+        <!-- Expert 3 -->
+        <div class="expert-card">
+          <img
+            src="images/expert1.jpeg"
+            alt="Emily Lawrence"
+            class="expert-photo"
+          />
+          <h3>Emily Lawrence</h3>
+          <p>Pedicurist</p>
+          <a href="mailto:info@demolink.org">info@demolink.org</a>
+        </div>
+      </div>
+
+      <div class="experts__button">
+        <a href="#" class="view-all-btn">View All Team</a>
+      </div>
+    </section>
+
+    <!-- Testimonials section -->
+
+    <section class="testimonials">
+      <div class="testimonials__container">
+        <h1>Testimonials</h1>
+        <div class="testimonial-slider">
+          <!-- Slide 1 -->
+          <div class="testimonial-slide active">
+            <blockquote>
+              "Your salon is meticulous and outstanding in the service that it
+              provides. I always leave happy and refreshed after a manicure. The
+              salon is absolutely clean and sanitary, and your team is always
+              ready to help me make a decision about new nail art."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/expert2.jpeg" alt="Amanda Smith" />
+              <h3>Amanda Smith</h3>
+              <p>Client</p>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <blockquote>
+              "I've never been happier with my nails. The staff is always so
+              friendly and professional. I highly recommend this salon to anyone
+              looking for quality and creativity."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/expert2.jpeg" alt="Sarah Johnson" />
+              <h3>Sarah Johnson</h3>
+              <p>Client</p>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <blockquote>
+              "Exceptional service every time! The team is incredibly talented,
+              and I always leave feeling pampered and satisfied with my nails."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/expert2.jpeg" alt="Emily Davis" />
+              <h3>Emily Davis</h3>
+              <p>Client</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Navigation -->
+        <div class="testimonial-navigation">
+          <span class="dot active" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+          <span class="dot" data-slide="3"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Price-list-section -->
+    <section class="pricing">
+      <div class="pricing__container">
+        <h1>Special Pricing</h1>
+        <p>
+          We provide a wide variety of affordable nail and skin treatments for
+          you. Below you can learn more about the price range of our services.
+        </p>
+        <div class="pricing-table">
+          <!-- Left Column -->
+          <div class="pricing-column">
+            <div class="pricing-item">
+              <h3>Essential</h3>
+              <p>60 – 100 Minute Sessions</p>
+              <span>$40.00</span>
+            </div>
+            <div class="pricing-item">
+              <h3>Elemental Nature</h3>
+              <p>30 – 40 Minute Sessions</p>
+              <span>$35.00</span>
+            </div>
+            <div class="pricing-item">
+              <h3>Neroli Spa</h3>
+              <p>40 – 60 Minute Sessions</p>
+              <span>$30.00</span>
+            </div>
+            <div class="pricing-item">
+              <h3>Gel Polish</h3>
+              <p>90 – 120 Minute Sessions</p>
+              <span>$55.00</span>
+            </div>
+          </div>
+          <!-- Right Column -->
+          <div class="pricing-column">
+            <div class="pricing-item">
+              <h3>Stone Therapy</h3>
+              <p>60 – 100 Minute Sessions</p>
+              <span>$40.00</span>
+            </div>
+            <div class="pricing-item">
+              <h3>Nail Design</h3>
+              <p>30 – 40 Minute Sessions</p>
+              <span>$35.00</span>
+            </div>
+            <div class="pricing-item">
+              <h3>Paraffin Wax</h3>
+              <p>40 – 60 Minute Sessions</p>
+              <span>$30.00</span>
+            </div>
+            <div class="pricing-item">
+              <h3>Gel Polish Add-On</h3>
+              <p>90 – 120 Minute Sessions</p>
+              <span>$15.00</span>
+            </div>
+          </div>
+        </div>
+        <button class="view-more-btn">View More</button>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h3>About Us</h3>
+          <p>
+            NailNest has been offering an extensive range of nail
+            services and skin treatments since 1999.
+          </p>
+        </div>
+        <div class="footer-section recent-posts">
+          <h3>Recent Posts</h3>
+          <ul>
+            <li>
+              Top 5 Reasons to Visit the Nearest Nail Salon<br /><span
+                >June 10, 2022 • 2 Comments</span
+              >
+            </li>
+            <li>
+              One Day from the Life of a Nail Artist<br /><span
+                >June 12, 2022 • 3 Comments</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section opening-hours">
+          <h3>Opening Hours</h3>
+          <ul>
+            <li>Mon-Fri: 9 am – 6 pm</li>
+            <li>Saturday: 9 am – 4 pm</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>Nairobi, kenya 0001, Langata, 01006</li>
+            <li>+254 (709) 987-5874</li>
+            <li>info@demolink.org</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 NailNest. <a href="#">Privacy Policy</a></p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-vimeo-v"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
